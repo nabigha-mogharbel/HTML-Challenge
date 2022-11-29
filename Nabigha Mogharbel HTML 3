@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="html3" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick&Hands">
+</head>
+
+<body>
+    <header>
+        <h1>Macaron House</h1>
+    </header>
+    <nav>
+        <button class="nav-btn"><a href="#">Home</a></button>
+        <button class="nav-btn"><a href="#">Our Team</a></button>
+        <button class="nav-btn"><a href="#">About Us</a></button>
+        <button class="nav-btn"><a href="#">Our Branches</a></button>
+        <button class="nav-btn"><a href="#">E-Shop</a></button>
+        <button class="nav-btn"><a href="#contact">Contact Us</a></button>
+    </nav>
+    <main>
+        <article id="article1">
+
+
+            <div class="artic-p">
+                <div>
+                    <h2 class="h2">Gallery</h2>
+                    <p class="p">Macaron House is a luxurious Lebanese macaron bakery.</p>
+                    <p class="p"> We bring you the joy of macaron with highly diverse flavor options. </p>
+                </div>
+                <img src="Assets/rsmacroons.jpg" style="width:300px; margin-top: 30px; border-radius: 20%;">
+
+            </div>
+        </article>
+        <article id="article2">
+            <h2 class="h2">Subscription</h2>
+            <p class="p">Check our VIP customer services and subscribe to join <br> our valued member group!</p>
+            <button class="readmore">Read more</button>
+        </article>
+        <article id="article3">
+            <h2 class="h2">Feedback</h2>
+            <p class="p">Customers' feedback is all that matter to us. Check what other has said about our products!
+            </p>
+
+            <button class="readmore">Read more</button>
+        </article>
+    </main>
+    <aside>
+        <div>
+            <h2>Best Selling Flavours</h2>
+            <ul>
+                <li><a href="#">Peanut Butter</a></li>
+                <li><a href="#">Red Velvet</a></li>
+                <li><a href="#">Salted Caramel</a></li>
+                <li><a href="#">Passionfruit</a></li>
+                <li><a href="#">Pistachio</a></li>
+                <li><a href="#">Thai Tea</a></li>
+                <li><a href="#">Oreo</a></li>
+                <li><a href="#">Vanilla</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <h2>Events and News</h2>
+            <p>Macarpn House has obtained ISO certicates for its production lines. </p>
+            <p></p>
+        </div>
+    </aside>
+
+    <div id="contact">
+        <h2>Contact us here.</h2>
+        <p>We are more than happy to hear your feedback.</p>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>Your name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Your message</label></td>
+                    <td><input type="textarea"></td>
+                </tr>
+                <tr>
+                    <td><label for="sugg">Suggestion<input value="sugg" id="sugg" type="radio"
+                                name="type-of-message"></label></td>
+                    <td><label for="comp">Complaint<input value="comp" id="comp" type="radio"
+                                name="type-of-message"></label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input value="Submit" type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer>
+        <p>Copy rights &#169; 2022.</p>
+    </footer>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+    </style>
+</body>
+
+</html>

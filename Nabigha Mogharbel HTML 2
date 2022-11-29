@@ -10,13 +10,13 @@
         <img src="./Assets/note.jpg" id="logo" alt="notebook-logo">
         <div>
             <h1>Dear Diary</h1>
-            <navbar>
+            <nav>
                 <div><img class="nav-icons" src="Assets/add.svg"><a class="nav-links" href="#">New diary</a></div>
                 <div><img class="nav-icons" src="Assets/diary-icon.svg"><a class="nav-links" href="#">My Diaries</a>
                 </div>
                 <div><img class="nav-icons" src="Assets/archive.svg"><a class="nav-links" href="#">Archive</a></div>
                 <div><img class="nav-icons" src="Assets/fav.svg"><a class="nav-links" href="#">Favourite</a></div>
-            </navbar>
+            </nav>
         </div>
     </header>
     <main>
