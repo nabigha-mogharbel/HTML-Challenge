@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+    background-image: url(Assets/paper-bg.jpg);
+}
+header{
+    background-color: #ddabd7;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+}
+#logo{
+    width:100px;
+    margin-right:10px;
+}
+main{
+    background-color: rgb(252, 242, 200);
+    margin-top: 30px;
+    width:80vw;
+    margin-left:10vw;
+    border-radius: 25px;
+    padding: 10px;
+}
+navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+navbar > div{
+    width:15vw;
+    padding-bottom:10px;
+}
+.nav-links{
+    margin:5px;
+    font-size: large;
+    text-decoration: none;
+    color:black;
+}
+.nav-icons{
+    width:20px;
+}
+
+.nav-links:hover{
+    color:rgb(219, 152, 70);
+}
+footer{
+    margin-top: 30px;
+    background-color: #ddabd7;
+    height:50px;
+    padding-top:8px;
+    margin-bottom:0;
+}
+footer > p, footer > a{
+    font-size: large;
+    text-align: center;
+
+}
+#main-pic{
+    width:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+#pic-container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.album{
+    width:25vw;
+    border-radius: 30px;
+}

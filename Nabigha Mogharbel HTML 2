@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="html2" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="./Assets/note.jpg" id="logo" alt="notebook-logo">
+        <div>
+            <h1>Dear Diary</h1>
+            <navbar>
+                <div><img class="nav-icons" src="Assets/add.svg"><a class="nav-links" href="#">New diary</a></div>
+                <div><img class="nav-icons" src="Assets/diary-icon.svg"><a class="nav-links" href="#">My Diaries</a>
+                </div>
+                <div><img class="nav-icons" src="Assets/archive.svg"><a class="nav-links" href="#">Archive</a></div>
+                <div><img class="nav-icons" src="Assets/fav.svg"><a class="nav-links" href="#">Favourite</a></div>
+            </navbar>
+        </div>
+    </header>
+    <main>
+        <h2>Monday, November 28</h2>
+        <img id="main-pic" src="Assets/cedars.jpg" alt="cedars trees">
+        <br>
+        <p> Today was an amazing day. We went to Arz El Rab at Bcharri, North Lebanon. This place is one of many natural
+            reserves in Lebanon. It's covered in Cedars trees, or
+            scientifically knows as <i>Cedrus libanis</i>.</p>
+        <br>
+        <p>The road to Arz El Rab reserve has breath-taking view where you drive along Qadisha valley. Before reaching
+            the
+            entrance,
+            we found plenty of small shops that sell antiques and handmade crafts for visitors.</p>
+        <ul>
+            <li>Wooden crafts made from cedars wood.</li>
+            <li>Saint Charbel statues</li>
+            <li>Statues and wooden models of cedar trees.</li>
+            <li>Wooden Plates with encraved biblical phrases or qoutes.</li>
+            <li>Landscapes and pictures of Bcharri and the reserve.</li>
+        </ul>
+
+        <p>The reserve felt like a <b>huge pit</b>, the walking paths follows a gradually desecnding direction and forms
+            spiral shapes to the reserve's center.</p>
+        <p>Although the reserve is almost exclusively covered with cedars, there was a noticable white
+                tree trunk that stands out from the rest of the reserve. I was curious to know more about it, but I
+            couldn't ask because we had to leave early. Luckily, I was able to take some photos of this reserve.</p>
+        <p>In general, it was really enjoyable and memorable trip. I will defenitly visit Arz El Rab reserve again.</p>
+
+        <div id="pic-container">
+            <img class="album" src="Assets/white-tree.jpg" alt="white tree">
+            <img class="album" src="Assets/shops.jpg" alt="shops">
+        </div>
+
+    </main>
+    <footer>
+        <p>Visit <a href="https://www.codi.tech">Codi.Tech</a> Website</p>
+    </footer>
+</body>
+
+</html>
